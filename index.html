@@ -7,9 +7,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+	<h1>Klamerki w pionie</h1>
     <!-- content -->
     <p>Klamerki w pionie. Robione pod e-book.</p>
 	
+	<h2>Klamerka obok tekstu</h2>
+	<table>
+		<tr><td>A</td>
+						<td rowspan=4 style="height: 100%"><div class="klamra-lewo"><span></span><i></i><div>Tekst jakiś</div></div></td>
+										  <td>Z</td></tr>
+		<tr><td>B</td>			          <td>Z</td></tr>
+		<tr><td>C</td>			          <td>Z</td></tr>
+		<tr><td>D</td>			          <td>Z</td></tr>
+		<tr><td>E</td><td rowspan=3 role="presentation"></td><td>Z</td></tr>
+		<tr><td>F</td><td>Z</td></tr>
+		<tr><td>G</td><td>Z</td></tr>
+		<tr><td>H</td></tr>
+		<tr><td>I</td></tr>
+		<tr><td>J</td></tr>
+	</table>
+	<table>
+		<tr><td>A</td>
+						<td rowspan=6 style="height: 100%"><div class="klamra-lewo"><span></span><i></i><div>Tekst jakiś</div></div></td>
+										  <td>Z</td></tr>
+		<tr><td>B</td>			          <td>Z</td></tr>
+		<tr><td>C</td>			          <td>Z</td></tr>
+		<tr><td>D</td>			          <td>Z</td></tr>
+		<tr><td>E</td><td>Z</td></tr>
+		<tr><td>F</td><td>Z</td></tr>
+		<tr><td>G</td><td rowspan=1 role="presentation"></td><td>Z</td></tr>
+		<tr><td>H</td></tr>
+		<tr><td>I</td></tr>
+		<tr><td>J</td></tr>
+	</table>
+
+	<style>
+		table td {
+			padding: .2em .4em;
+		}
+	
+		.klamra-lewo {
+			display: table;
+			height: 100%;
+		}
+		.klamra-lewo div {
+			display:table-cell;
+			height: 100%;
+			vertical-align: middle;
+		}
+		.klamra-lewo span {
+			display:table-cell;
+			width: .5em;
+			height: 100%;
+			
+			border: 3px solid black;
+			border-left:none;
+			border-radius: 0 10px 10px 0;
+		}
+		.klamra-lewo i {
+			height: 100%;
+			display:table-cell;
+			
+			width: 8px;
+			background-size: 8px;
+			
+			background-image: url('CurlyBrace-beak.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			position: relative;
+			left: -5px;
+			background-image: url('CurlyBrace-beak.svg');
+		}
+	</style>
+
+	<h2>Klamerka w osobnej komórce</h2>
 	<table>
 		<tr><td>A</td>
 						<td class="klamra" rowspan=4 role="presentation"><div><span></span><i></i></div></td>
