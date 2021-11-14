@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Klamerki w pionie</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- content -->
+    <p>Klamerki w pionie. Robione pod e-book.</p>
+	
+	<table>
+		<tr><td>A</td>
+						<td class="klamra" rowspan=4 role="presentation"><div><span></span><i></i></div></td>
+						<td class="post-klamra" rowspan=4>Tekst jakiś</td>
+										  <td>Z</td></tr>
+		<tr><td>B</td>			          <td>Z</td></tr>
+		<tr><td>C</td>			          <td>Z</td></tr>
+		<tr><td>D</td>			          <td>Z</td></tr>
+		<tr><td>E</td><td colspan=2 rowspan=3 role="presentation"></td><td>Z</td></tr>
+		<tr><td>F</td><td>Z</td></tr>
+		<tr><td>G</td><td>Z</td></tr>
+		<tr><td>H</td></tr>
+		<tr><td>I</td></tr>
+		<tr><td>J</td></tr>
+	</table>
+	
+	<style>
+	table td {
+		padding: .2em .4em;
+	}
+	.klamra {
+		padding: 0;
+		height: 100%;
+	}
+	.klamra div {
+		display: table;
+		height: 100%;
+	}
+	.klamra span {
+		display:table-cell;
+		width: .5em;
+		height: 100%;
+		
+		border: 3px solid black;
+		border-left:none;
+		border-radius: 0 10px 10px 0;
+	}
+	.klamra i {
+		height: 100%;
+		display:table-cell;
+		
+		width: 8px;
+		background-size: 8px;
+		
+		background-image: url('CurlyBrace-beak.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		position: relative;
+		left: -5px;
+		background-image: url('CurlyBrace-beak.svg');
+	}
+	.post-klamra {
+		padding-left: 0;
+	}
+	</style>
+	
+	
+	<h2>Zobacz też</h2>
+	<ul>
+		<li><a href="https://kdp.amazon.com/en_US/help/topic/GG5R7N649LECKP7U#css_support">Ograniczenia dla mobi (Kindle)</a>.
+	</ul>
+</body>
+</html>

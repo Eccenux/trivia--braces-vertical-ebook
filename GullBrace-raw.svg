@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="46.667"
+   height="167.666"
+   viewBox="-.6 -.6 46.667 167.666"
+   version="1.1"
+   id="svg4"
+   sodipodi:docname="GullBrace-raw.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata10"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs8" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1858"
+   inkscape:window-height="1057"
+   id="namedview6"
+   showgrid="false"
+   inkscape:zoom="3.0997548"
+   inkscape:cx="39.086543"
+   inkscape:cy="86.609025"
+   inkscape:window-x="-8"
+   inkscape:window-y="117"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg4" />
+  <path
+   d="m 20.404297,108 c -3.78e-4,0.13592 -0.0039,0.26329 -0.0039,0.40039 v 32.19922 c 0,15.201 -3.800782,23.20156 -19.80078162,25.60156 L 1,166.59961 C 22,165.99961 29.800781,160 29.800781,139 v -31 z"
+   transform="translate(-0.6,-0.6)"
+   id="path859"
+   inkscape:export-filename="bottom.png"
+   inkscape:export-xdpi="32.880001"
+   inkscape:export-ydpi="32.880001" /><path
+   d="M 1,0.59960938 0.59960938,1 C 16.199609,2.8 20.400391,11.800391 20.400391,26.400391 v 31.199218 c 0,0.512003 0.0085,1.002717 0.01367,1.5 h 9.386719 v -29.5 C 29.800781,7.7996094 23.6,0.99960938 1,0.59960938 Z"
+   transform="translate(-0.6,-0.6)"
+   id="path2"
+   inkscape:export-filename="top.png"
+   inkscape:export-xdpi="32.880001"
+   inkscape:export-ydpi="32.880001" />
+</svg>
